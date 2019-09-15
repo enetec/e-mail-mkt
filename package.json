@@ -1,0 +1,25 @@
+{
+  "name": "controle-financeiro",
+  "version": "1.0.0",
+  "description": "Software que auxialará o usuário no seu controle financeiro.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3"
+  },
+  "repository": "https://github.com/GeekSilva97/fluxo-caixa",
+  "keywords": [
+   "Finanças",
+   "Controle Financeiro",
+   "Fluxo de caixa"
+  ],
+  "author": "Edigleysson Silva",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-rebuild": "^1.7.3"
+  },
+  "dependencies": {
+    "sqlite3": "^4.0.0"
+  }
+}
